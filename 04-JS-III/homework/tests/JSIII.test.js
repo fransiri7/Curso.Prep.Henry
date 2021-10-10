@@ -84,7 +84,7 @@ describe('arrayContiene(arr, item)', function() {
   });
 });
 
-xdescribe('agregarNumeros(numbers)', function() {
+describe('agregarNumeros(numbers)', function() {
   it('should add all of the numbers in the array together and return the sum', function() {
     expect(agregarNumeros([10, 10, 16])).toBe(36);
     expect(agregarNumeros([97, 100])).toBe(197);
